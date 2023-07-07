@@ -19,4 +19,13 @@ you can setup remote.it or pitunnel to remotely exploit an network.
 
 This is an ethical hacking repo for diy mitm attack.
 
+netdiscover has been installed
+airodump-ng has been installed
+aircrack-ng has been installed
+kickthemout.py has been installed
+ettercap text has been installed 
+airmon-ng has been installed
+raspap has been installed
+NOTE: to use any air applications you need to have a seprate mointor caplble wlan0 card or us nexmon to patch the firmware.
+
 WIP
