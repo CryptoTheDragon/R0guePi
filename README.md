@@ -3,29 +3,48 @@ An precompiled rouge ap for raspberry pi 3b+
 
 
 Defualt Creds:
-user: R0guePi
+SSH ENABLED BY DEFUALT
+user: pi
 pass: toor
-use passwd on login and raspi-config to change hostname
+RaspAP SSID:
+ssid:
+raspi-webgui
+passwd:
+ChangeMe
+RaspAP SITE:
+user: admin
+pass: secret
 
-rasp ap should spawn an ap called R0guePi
-with the creds 
-admin panel at the pi IP: [scary numbers here :3]
-admin 
-secret
+built on raspbery pi 64 bit os
 
-R0guePi requires a eth0 cable to be connect to a lan port.
-the ap serves as an attack and a login vector
-you can setup remote.it or pitunnel to remotely exploit an network.
+Comes with:
+RaspAp - rouge ap
+msfconsole
+ettercap-text
+airmon-ng
+aircrack-ng
+airodump-ng
+netdiscover
+Kickthemout.py
+neofetch - bash logo
+carbonyl for if you need to search on the terminal
 
-This is an ethical hacking repo for diy mitm attack.
+What you need:
+A raspberry pi 
+Lan/ethernet patch cable 
+more than 5.5GB for the minimal install
 
-netdiscover has been installed
-airodump-ng has been installed
-aircrack-ng has been installed
-kickthemout.py has been installed
-ettercap text has been installed 
-airmon-ng has been installed
-raspap has been installed
-NOTE: to use any air applications you need to have a seprate mointor caplble wlan0 card or us nexmon to patch the firmware.
+Optinal:
+nexmon patches for 3B+ 
+or 
+USB wlan adapters with mointor support
 
-WIP
+For remote MITM: 
+remote.it
+Pitunnel
+or
+ngrok
+
+Since the distro R0ugePi is made ontop of raspberry pi os it will update with sudo apt-get update.
+
+
