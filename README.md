@@ -1,5 +1,5 @@
 # R0guePi
-An precompiled rouge ap for raspberry pi 3b+
+An precompiled rouge ap for raspberry pi 3b+ or 64 bit os supported pi boards.
 
 
 Defualt Creds:
@@ -41,6 +41,18 @@ USB wlan adapters with mointor support
 
 For remote MITM: 
 remote.it
+
+WILL WORK WITH THESE BOARDS:
+3B
+3B+
+3A
+4
+400
+CM3
+CM3+
+CM4
+Zero 2 W
+
 Pitunnel
 or
 ngrok
